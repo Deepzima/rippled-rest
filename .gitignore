@@ -1,0 +1,33 @@
+# env package
+venv
+
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+config.json
+
+# OSX stupid annoying stuff
+.DS_Store
+
+# IDE and other configs
+.vscode
+.idea
+
+# unwanted
+react-contactform
+.webpack
+
+# Vagrant
+.vagrant
+*.log
+vagrant_ansible_inventory_default
+
+# Ansible
+*.retry
+
+
+
+

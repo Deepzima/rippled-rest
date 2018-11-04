@@ -1,0 +1,39 @@
+{
+  "name": "rest-ripple-lib",
+  "version": "1.0.0",
+  "description": "rest api for ripple-lib integration ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aspha9/rippled-rest.git"
+  },
+  "author": "bardarz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aspha9/rippled-rest/issues"
+  },
+  "homepage": "https://github.com/aspha9/rippled-rest#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-latest": "^6.24.1",
+    "serverless-offline": "^3.31.0",
+    "serverless-webpack": "^5.2.0",
+    "webpack": "^4.24.0",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.348.0",
+    "babel-polyfill": "^6.26.0",
+    "cors": "^2.8.4",
+    "csurf": "^1.9.0",
+    "dynamoose": "^1.1.0",
+    "express": "^4.16.4",
+    "ripple-lib": "^1.1.0",
+    "serverless-http": "^1.8.0"
+  }
+}
